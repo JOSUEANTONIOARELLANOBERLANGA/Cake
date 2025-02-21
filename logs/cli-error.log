@@ -1,0 +1,18 @@
+2025-02-20 06:18:11 warning: Array to string conversion
+Trace:
+Cake\Error\ErrorTrap->handleError() C:\xampp\htdocs\cakephp\vendor\twig\twig\src\Template.php, line 345
+Twig\Template->display() C:\xampp\htdocs\cakephp\vendor\twig\twig\src\Template.php, line 359
+Twig\Template->render() C:\xampp\htdocs\cakephp\vendor\twig\twig\src\TemplateWrapper.php, line 51
+Twig\TemplateWrapper->render() C:\xampp\htdocs\cakephp\vendor\cakephp\twig-view\src\View\TwigView.php, line 299
+Cake\TwigView\View\TwigView->_evaluate() C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\View\View.php, line 1145
+Cake\View\View->_render() C:\xampp\htdocs\cakephp\vendor\cakephp\bake\src\View\BakeView.php, line 91
+Bake\View\BakeView->render() C:\xampp\htdocs\cakephp\vendor\cakephp\bake\src\Utility\TemplateRenderer.php, line 101
+Bake\Utility\TemplateRenderer->generate() C:\xampp\htdocs\cakephp\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 409
+Bake\Command\TemplateCommand->getContent() C:\xampp\htdocs\cakephp\vendor\cakephp\bake\src\Command\TemplateCommand.php, line 151
+Bake\Command\TemplateCommand->execute() C:\xampp\htdocs\cakephp\vendor\cakephp\bake\src\Command\AllCommand.php, line 120
+Bake\Command\AllCommand->execute() C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Console\BaseCommand.php, line 202
+Cake\Console\BaseCommand->run() C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 330
+Cake\Console\CommandRunner->runCommand() C:\xampp\htdocs\cakephp\vendor\cakephp\cakephp\src\Console\CommandRunner.php, line 168
+Cake\Console\CommandRunner->run() C:\xampp\htdocs\cakephp\bin\cake.php, line 10
+[main]
+
